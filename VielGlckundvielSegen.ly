@@ -1,4 +1,3 @@
-\version "2.19.82"
 \language "deutsch"
 
 \include "predefined-guitar-fretboards.ly"
@@ -9,8 +8,8 @@
 }
 <<
 \time 3/4
-\chords {r4 g1 c1 }
-\new FretBoards{\chordmode{r4 g1 c1}}
+\chords {\partial 4 s4 g1 c1 }
+\new FretBoards{\chordmode{s4 g1 c1}}
 
 \new Voice \relative c'' 
 {
